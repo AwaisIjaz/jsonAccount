@@ -24,11 +24,7 @@ public servicegit() {
 	public Map<Integer, accountgit> getAccounts() { 
 	return accountDatabase; 
 	} 
-
-	public static void main(String[] args) {
-	System.out.println();
-	}
-
+	
 	public String mapToJSON() { 
 		ObjectMapper jsonMaker = new ObjectMapper(); 
 try { 
@@ -41,4 +37,3 @@ try {
 	} 
 }
 }
- 
